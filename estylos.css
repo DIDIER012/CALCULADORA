@@ -69,3 +69,30 @@ button:focus{
 #valor-anterior{
     font-size: 2em;
 }
+
+@media (max-width: 767px) {
+    .calculadora {
+        grid-template-columns: repeat(4, 70px); 
+        grid-template-rows: 120px repeat(5, 70px); 
+        padding: 10px; 
+        border-radius: 20px; 
+        box-shadow: 10px 5px 0px 3px black; 
+    }
+
+    button {
+        font-size: 1em; 
+    }
+
+    .display {
+        padding: 10px; 
+        margin: 5px 5px 10px; 
+    }
+
+    #valor-actual {
+        font-size: 1em; 
+    }
+
+    #valor-anterior {
+        font-size: 1.5em; 
+    }
+}
